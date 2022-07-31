@@ -1,0 +1,150 @@
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BCE330D5EB8DFC0E51E9B53C0797345F\IMGUI-DOWNLOAD-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/tmp/imgui-download-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BCE330D5EB8DFC0E51E9B53C0797345F\IMGUI-DOWNLOAD-DOWNLOAD.RULE
+setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/tmp/imgui-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BCE330D5EB8DFC0E51E9B53C0797345F\IMGUI-DOWNLOAD-UPDATE.RULE
+setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external\imgui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/tmp/imgui-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BCE330D5EB8DFC0E51E9B53C0797345F\IMGUI-DOWNLOAD-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BCE330D5EB8DFC0E51E9B53C0797345F\IMGUI-DOWNLOAD-CONFIGURE.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BCE330D5EB8DFC0E51E9B53C0797345F\IMGUI-DOWNLOAD-BUILD.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BCE330D5EB8DFC0E51E9B53C0797345F\IMGUI-DOWNLOAD-INSTALL.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\BCE330D5EB8DFC0E51E9B53C0797345F\IMGUI-DOWNLOAD-TEST.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\F78884A4A469177C9508E5D3AAF830F6\IMGUI-DOWNLOAD-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/Debug/imgui-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/imgui-download-prefix/src/imgui-download-stamp/Debug/imgui-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKEFILES\F6379E10DE3E069740D86662C1201E5A\IMGUI-DOWNLOAD.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui -BC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui --check-stamp-file C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

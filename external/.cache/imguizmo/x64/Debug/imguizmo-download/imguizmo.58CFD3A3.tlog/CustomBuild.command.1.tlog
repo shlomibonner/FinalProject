@@ -1,0 +1,150 @@
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\2DDE7103AF28B98AC64D9564C1D4F547\IMGUIZMO-DOWNLOAD-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/Debug/imguizmo-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\2DDE7103AF28B98AC64D9564C1D4F547\IMGUIZMO-DOWNLOAD-DOWNLOAD.RULE
+setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/Debug/imguizmo-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\2DDE7103AF28B98AC64D9564C1D4F547\IMGUIZMO-DOWNLOAD-UPDATE.RULE
+setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external\imguizmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\2DDE7103AF28B98AC64D9564C1D4F547\IMGUIZMO-DOWNLOAD-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/Debug/imguizmo-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\2DDE7103AF28B98AC64D9564C1D4F547\IMGUIZMO-DOWNLOAD-CONFIGURE.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/Debug/imguizmo-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\2DDE7103AF28B98AC64D9564C1D4F547\IMGUIZMO-DOWNLOAD-BUILD.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/Debug/imguizmo-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\2DDE7103AF28B98AC64D9564C1D4F547\IMGUIZMO-DOWNLOAD-INSTALL.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/Debug/imguizmo-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\2DDE7103AF28B98AC64D9564C1D4F547\IMGUIZMO-DOWNLOAD-TEST.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/Debug/imguizmo-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\0B5DEF7E49B71AE829884BBC40F1111B\IMGUIZMO-DOWNLOAD-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/Debug/imguizmo-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/Debug/imguizmo-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKEFILES\49D1ACBC11B98D77F36C3B5F2732759A\IMGUIZMO-DOWNLOAD.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\IMGUIZMO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo -BC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo --check-stamp-file C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,14 @@
+# Target labels
+ glad-download
+# Source files and their labels
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/glad-download
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/dc5f67f17f7a3edd4aa5e464468cbfd4/glad-download.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/6d162ae45197cdd6248e85f693cc0d76/glad-download-complete.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/996c48d6faef90be71ff9a5411ede09d/glad-download-build.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/996c48d6faef90be71ff9a5411ede09d/glad-download-configure.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/996c48d6faef90be71ff9a5411ede09d/glad-download-download.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/996c48d6faef90be71ff9a5411ede09d/glad-download-install.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/996c48d6faef90be71ff9a5411ede09d/glad-download-mkdir.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/996c48d6faef90be71ff9a5411ede09d/glad-download-patch.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/996c48d6faef90be71ff9a5411ede09d/glad-download-test.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glad/CMakeFiles/996c48d6faef90be71ff9a5411ede09d/glad-download-update.rule

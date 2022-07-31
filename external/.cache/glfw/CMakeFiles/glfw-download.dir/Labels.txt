@@ -1,0 +1,14 @@
+# Target labels
+ glfw-download
+# Source files and their labels
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/glfw-download
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/da53100432c8d0c2b68324e7c9893f09/glfw-download.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/52613ca501d4e2d49b7aa8dfd61fa2a9/glfw-download-complete.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/c5702d39981c33d4b8e27911dcd4bd62/glfw-download-build.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/c5702d39981c33d4b8e27911dcd4bd62/glfw-download-configure.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/c5702d39981c33d4b8e27911dcd4bd62/glfw-download-download.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/c5702d39981c33d4b8e27911dcd4bd62/glfw-download-install.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/c5702d39981c33d4b8e27911dcd4bd62/glfw-download-mkdir.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/c5702d39981c33d4b8e27911dcd4bd62/glfw-download-patch.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/c5702d39981c33d4b8e27911dcd4bd62/glfw-download-test.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/glfw/CMakeFiles/c5702d39981c33d4b8e27911dcd4bd62/glfw-download-update.rule

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/stb-download"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/5a36c4ad1bd04d1f874ee9c142622da2/stb-download.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/edb285ad0ca373c34cf21f8725dbbc95/stb-download-complete.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-build.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-configure.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-download.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-install.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-patch.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-test.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stb-download"
+		],
+		"name" : "stb-download"
+	}
+}

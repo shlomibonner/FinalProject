@@ -1,0 +1,14 @@
+# Target labels
+ stb-download
+# Source files and their labels
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/stb-download
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/5a36c4ad1bd04d1f874ee9c142622da2/stb-download.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/edb285ad0ca373c34cf21f8725dbbc95/stb-download-complete.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-build.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-configure.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-download.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-install.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-mkdir.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-patch.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-test.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/75a4b17bacb08ca3bb71a3b2e166210e/stb-download-update.rule

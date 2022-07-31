@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/imgui-download"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/f6379e10de3e069740d86662c1201e5a/imgui-download.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/f78884a4a469177c9508e5d3aaf830f6/imgui-download-complete.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/bce330d5eb8dfc0e51e9b53c0797345f/imgui-download-build.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/bce330d5eb8dfc0e51e9b53c0797345f/imgui-download-configure.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/bce330d5eb8dfc0e51e9b53c0797345f/imgui-download-download.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/bce330d5eb8dfc0e51e9b53c0797345f/imgui-download-install.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/bce330d5eb8dfc0e51e9b53c0797345f/imgui-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/bce330d5eb8dfc0e51e9b53c0797345f/imgui-download-patch.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/bce330d5eb8dfc0e51e9b53c0797345f/imgui-download-test.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imgui/CMakeFiles/bce330d5eb8dfc0e51e9b53c0797345f/imgui-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-download"
+		],
+		"name" : "imgui-download"
+	}
+}

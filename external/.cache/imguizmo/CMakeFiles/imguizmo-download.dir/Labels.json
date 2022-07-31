@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/imguizmo-download"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/49d1acbc11b98d77f36c3b5f2732759a/imguizmo-download.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/0b5def7e49b71ae829884bbc40f1111b/imguizmo-download-complete.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-build.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-configure.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-download.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-install.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-patch.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-test.rule"
+		},
+		{
+			"file" : "C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imguizmo-download"
+		],
+		"name" : "imguizmo-download"
+	}
+}

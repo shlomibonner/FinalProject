@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\75a4b17bacb08ca3bb71a3b2e166210e\stb-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\75a4b17bacb08ca3bb71a3b2e166210e\stb-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\75a4b17bacb08ca3bb71a3b2e166210e\stb-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\75a4b17bacb08ca3bb71a3b2e166210e\stb-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\75a4b17bacb08ca3bb71a3b2e166210e\stb-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\75a4b17bacb08ca3bb71a3b2e166210e\stb-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\75a4b17bacb08ca3bb71a3b2e166210e\stb-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\75a4b17bacb08ca3bb71a3b2e166210e\stb-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\edb285ad0ca373c34cf21f8725dbbc95\stb-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\5a36c4ad1bd04d1f874ee9c142622da2\stb-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\stb\CMakeFiles\stb-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{18709C23-0DFD-3D5A-9EFF-2D141609610A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

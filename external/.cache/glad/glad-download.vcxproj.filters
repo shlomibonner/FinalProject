@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\996c48d6faef90be71ff9a5411ede09d\glad-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\996c48d6faef90be71ff9a5411ede09d\glad-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\996c48d6faef90be71ff9a5411ede09d\glad-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\996c48d6faef90be71ff9a5411ede09d\glad-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\996c48d6faef90be71ff9a5411ede09d\glad-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\996c48d6faef90be71ff9a5411ede09d\glad-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\996c48d6faef90be71ff9a5411ede09d\glad-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\996c48d6faef90be71ff9a5411ede09d\glad-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\6d162ae45197cdd6248e85f693cc0d76\glad-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\dc5f67f17f7a3edd4aa5e464468cbfd4\glad-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\glad\CMakeFiles\glad-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{889C40BE-F06A-3339-AC40-5D5C1A1E836A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

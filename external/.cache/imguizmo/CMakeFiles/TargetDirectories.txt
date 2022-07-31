@@ -1,0 +1,3 @@
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/imguizmo-download.dir
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/ALL_BUILD.dir
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/ZERO_CHECK.dir

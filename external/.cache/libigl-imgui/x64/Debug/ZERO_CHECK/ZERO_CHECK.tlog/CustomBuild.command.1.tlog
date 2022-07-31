@@ -1,0 +1,10 @@
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\5E7A0B0E7CB543EAC849EA677770B280\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/libigl-imgui -BC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/libigl-imgui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/libigl-imgui/libigl-imgui-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

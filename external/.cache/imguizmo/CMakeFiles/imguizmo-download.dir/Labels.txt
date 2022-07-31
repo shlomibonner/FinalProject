@@ -1,0 +1,14 @@
+# Target labels
+ imguizmo-download
+# Source files and their labels
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/imguizmo-download
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/49d1acbc11b98d77f36c3b5f2732759a/imguizmo-download.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/0b5def7e49b71ae829884bbc40f1111b/imguizmo-download-complete.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-build.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-configure.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-download.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-install.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-mkdir.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-patch.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-test.rule
+C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/2dde7103af28b98ac64d9564c1d4f547/imguizmo-download-update.rule

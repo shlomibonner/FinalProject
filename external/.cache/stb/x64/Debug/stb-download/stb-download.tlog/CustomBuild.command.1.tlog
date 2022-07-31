@@ -1,0 +1,150 @@
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\75A4B17BACB08CA3BB71A3B2E166210E\STB-DOWNLOAD-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/tmp/stb-download-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/Debug/stb-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\75A4B17BACB08CA3BB71A3B2E166210E\STB-DOWNLOAD-DOWNLOAD.RULE
+setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/tmp/stb-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/Debug/stb-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\75A4B17BACB08CA3BB71A3B2E166210E\STB-DOWNLOAD-UPDATE.RULE
+setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external\stb
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/tmp/stb-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\75A4B17BACB08CA3BB71A3B2E166210E\STB-DOWNLOAD-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/Debug/stb-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\75A4B17BACB08CA3BB71A3B2E166210E\STB-DOWNLOAD-CONFIGURE.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/Debug/stb-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\75A4B17BACB08CA3BB71A3B2E166210E\STB-DOWNLOAD-BUILD.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/Debug/stb-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\75A4B17BACB08CA3BB71A3B2E166210E\STB-DOWNLOAD-INSTALL.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/Debug/stb-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\75A4B17BACB08CA3BB71A3B2E166210E\STB-DOWNLOAD-TEST.RULE
+setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/Debug/stb-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\EDB285AD0CA373C34CF21F8725DBBC95\STB-DOWNLOAD-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/Debug/stb-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/stb-download-prefix/src/stb-download-stamp/Debug/stb-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKEFILES\5A36C4AD1BD04D1F874EE9C142622DA2\STB-DOWNLOAD.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\FINALPROJECT\CG3DBASICENGINE-MAIN\EXTERNAL\.CACHE\STB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb -BC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb --check-stamp-file C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/stb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

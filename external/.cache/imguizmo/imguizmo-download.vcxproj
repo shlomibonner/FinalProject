@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{58CFD3A3-BAE5-3889-AAD1-A1A76AB128BA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>imguizmo-download</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\2dde7103af28b98ac64d9564c1d4f547\imguizmo-download-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\2dde7103af28b98ac64d9564c1d4f547\imguizmo-download-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\imguizmo-download-gitinfo.txt;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\imguizmo-download-gitinfo.txt;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\imguizmo-download-gitinfo.txt;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\imguizmo-download-gitinfo.txt;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\2dde7103af28b98ac64d9564c1d4f547\imguizmo-download-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external\imguizmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external\imguizmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing update step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external\imguizmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Dev\FinalProject\CG3DBasicEngine-main\external\imguizmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/tmp/imguizmo-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\2dde7103af28b98ac64d9564c1d4f547\imguizmo-download-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\2dde7103af28b98ac64d9564c1d4f547\imguizmo-download-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\tmp\imguizmo-download-cfgcmd.txt;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\tmp\imguizmo-download-cfgcmd.txt;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\tmp\imguizmo-download-cfgcmd.txt;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\tmp\imguizmo-download-cfgcmd.txt;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\2dde7103af28b98ac64d9564c1d4f547\imguizmo-download-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\2dde7103af28b98ac64d9564c1d4f547\imguizmo-download-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\2dde7103af28b98ac64d9564c1d4f547\imguizmo-download-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Dev\FinalProject\FinalProjectCompiled\imguizmo-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\0b5def7e49b71ae829884bbc40f1111b\imguizmo-download-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/$(Configuration)/imguizmo-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\$(Configuration)\imguizmo-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/$(Configuration)/imguizmo-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\$(Configuration)\imguizmo-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/$(Configuration)/imguizmo-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\$(Configuration)\imguizmo-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'imguizmo-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/$(Configuration)/imguizmo-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/imguizmo-download-prefix/src/imguizmo-download-stamp/$(Configuration)/imguizmo-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-install;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-mkdir;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-download;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-update;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-patch;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-configure;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-build;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\src\imguizmo-download-stamp\$(Configuration)\imguizmo-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\$(Configuration)\imguizmo-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\49d1acbc11b98d77f36c3b5f2732759a\imguizmo-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\$(Configuration)\imguizmo-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\imguizmo-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\$(Configuration)\imguizmo-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\imguizmo-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\$(Configuration)\imguizmo-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\imguizmo-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\$(Configuration)\imguizmo-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\imguizmo-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo -BC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo --check-stamp-file C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\3.23.0\CMakeSystem.cmake;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\tmp\imguizmo-download-mkdirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo -BC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo --check-stamp-file C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\3.23.0\CMakeSystem.cmake;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\tmp\imguizmo-download-mkdirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo -BC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo --check-stamp-file C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\3.23.0\CMakeSystem.cmake;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\tmp\imguizmo-download-mkdirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo -BC:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo --check-stamp-file C:/Dev/FinalProject/CG3DBasicEngine-main/external/.cache/imguizmo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\3.23.0\CMakeSystem.cmake;C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\imguizmo-download-prefix\tmp\imguizmo-download-mkdirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\CMakeFiles\imguizmo-download">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imguizmo\ZERO_CHECK.vcxproj">
+      <Project>{0BDC8D59-8A69-35CC-AE6B-A3E4696C6439}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

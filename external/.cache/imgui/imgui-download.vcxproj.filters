@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\bce330d5eb8dfc0e51e9b53c0797345f\imgui-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\bce330d5eb8dfc0e51e9b53c0797345f\imgui-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\bce330d5eb8dfc0e51e9b53c0797345f\imgui-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\bce330d5eb8dfc0e51e9b53c0797345f\imgui-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\bce330d5eb8dfc0e51e9b53c0797345f\imgui-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\bce330d5eb8dfc0e51e9b53c0797345f\imgui-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\bce330d5eb8dfc0e51e9b53c0797345f\imgui-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\bce330d5eb8dfc0e51e9b53c0797345f\imgui-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\f78884a4a469177c9508e5d3aaf830f6\imgui-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\f6379e10de3e069740d86662c1201e5a\imgui-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Dev\FinalProject\CG3DBasicEngine-main\external\.cache\imgui\CMakeFiles\imgui-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0C06C5E7-4D37-32B3-B2E9-0E292D1D3EB8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
